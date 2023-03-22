@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+h1,p{
+    background-color: grey;
+    color: brown;
+}
+#para p,p{
+    background-color: whitesmoke;
+    color: green;
+}
+/* <!--How to insert Bakground image in our CSS--> */
+body{
+    background-image: url(./gradient_bg.png);
+}
+/* Unvisited link */
+a:link {
+    color: red
+
+}
+
+/* visited link */
+a :visited{
+    color: yellow;
+}
+a:hover{
+    background-color: white;
+}
